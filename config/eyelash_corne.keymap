@@ -39,6 +39,13 @@
         bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
     };
 
+    shift_caps: shift_caps {
+        compatible = "zmk,behavior-tap-dance";
+        label = "SHIFT_CAPS";
+        #binding-cells = <0>;
+        bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+    };
+
     mouse_scroll: mouse_scroll {
         compatible = "zmk,behavior-sensor-rotate";
         label = "MOUSE_SCROLL";
@@ -48,6 +55,13 @@
             <&msc MOVE_Y(ZMK_MOUSE_SCRL_VAL)>;
 
         tap-ms = <20>;
+    };
+
+    shift_caps_word: shift_caps_word {
+        compatible = "zmk,behavior-tap-dance";
+        label = "SHIFT_CAPS_WORD";
+        #binding-cells = <0>;
+        bindings = <&kp RIGHT_SHIFT>, <&caps_word>;
     };
 
     scroll_encoder: scroll_encoder {
