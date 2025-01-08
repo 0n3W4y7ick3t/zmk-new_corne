@@ -148,51 +148,51 @@ layers:
   - {t: '0', s: )}
   symbol:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '@'
-  - '#'
-  - $
-  - '%'
-  - PgUp
-  - ^
+  - '{'
   - '&'
-  - '*'
-  - (
-  - )
+  - PgUp
+  - '%'
+  - '}'
+  - _
+  - +
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '#'
+  - {t: '[', s: '{'}
+  - '|'
   - HOME
   - $$mdi:mouse-left-click-outline$$
   - END
+  - '!'
+  - )
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
-  - {t: '`', s: '~'}
+  - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - $
+  - (
+  - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
+  - '*'
+  - {t: ']', s: '}'}
+  - <
+  - '>'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   fn:
