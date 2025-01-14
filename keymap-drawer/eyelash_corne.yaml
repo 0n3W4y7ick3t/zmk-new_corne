@@ -12,7 +12,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: \, s: '|'}
+  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
@@ -27,7 +27,7 @@ layers:
   - E
   - I
   - O
-  - {t: '''', s: '"'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - '&shift_caps'
   - Z
   - X
@@ -61,7 +61,7 @@ layers:
   - C
   - R
   - L
-  - {t: \, s: '|'}
+  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - O
@@ -76,7 +76,7 @@ layers:
   - T
   - N
   - S
-  - {t: /, s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
   - '&shift_caps'
   - {t: ;, s: ':'}
   - Q
@@ -110,7 +110,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
@@ -125,7 +125,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - '&shift_caps'
   - Z
   - X
