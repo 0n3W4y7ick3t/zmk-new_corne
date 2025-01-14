@@ -213,7 +213,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
-  - {t: '[', s: '{'}
+  - (
   - '|'
   - HOME
   - $$mdi:mouse-left-click-outline$$
@@ -228,7 +228,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $
-  - (
+  - {t: '[', s: '{'}
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
@@ -290,6 +290,6 @@ layers:
   - RGB EFR
   - RGB TOG
   - RGB EFF
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
