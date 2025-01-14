@@ -47,7 +47,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: symbol}
-  - {t: '$$mdi:printer-outline$$', h: fn}
+  - {t: '$$mdi:printer-outline$$', h: ctrl}
   dvorak:
   - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
   - .
@@ -96,7 +96,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: symbol}
-  - {t: '$$mdi:printer-outline$$', h: fn}
+  - {t: '$$mdi:printer-outline$$', h: ctrl}
   qwerty:
   - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
   - Q
@@ -145,7 +145,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: symbol}
-  - {t: '$$mdi:printer-outline$$', h: fn}
+  - {t: '$$mdi:printer-outline$$', h: ctrl}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -177,9 +177,9 @@ layers:
   - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFR
-  - RGB TOG
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  fn:
+  ctrl:
   - F12
   - F1
   - F2
@@ -287,9 +287,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
+  - RGB TOG
+  - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
