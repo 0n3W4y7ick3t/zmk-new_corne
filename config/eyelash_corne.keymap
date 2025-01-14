@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -113,10 +114,10 @@
         symbol {
             display-name = "symbol";
             bindings = <
-&trans  &trans  &trans  &kp AT_SIGN  &kp LBRC  &kp AMPERSAND                      &kp PAGE_UP             &kp PERCENT  &kp RBRC  &kp UNDERSCORE  &kp PLUS          &trans     &kp BSPC
-&trans  &trans  &trans  &kp HASH     &kp LBKT  &kp PIPE                 &kp HOME  &mkp LCLK      &kp END  &kp EXCL     &kp RPAR  &kp MINUS       &kp EQUAL         &kp COLON  &trans
-&trans  &trans  &trans  &kp DOLLAR   &kp LPAR  &kp CARET      &trans              &kp PAGE_DOWN           &kp ASTRK    &kp RBKT  &kp LESS_THAN   &kp GREATER_THAN  &trans     &kp ENTER
-                        &trans       &trans    &kp SPACE                                                  &trans       &trans    &trans
+&trans  &trans  &trans  &kp AT_SIGN  &kp LBRC              &kp AMPERSAND                      &kp PAGE_UP             &kp PERCENT  &kp RBRC  &kp UNDERSCORE  &kp PLUS          &trans     &kp BSPC
+&trans  &trans  &trans  &kp HASH     &kp LEFT_PARENTHESIS  &kp PIPE                 &kp HOME  &mkp LCLK      &kp END  &kp EXCL     &kp RPAR  &kp MINUS       &kp EQUAL         &kp COLON  &trans
+&trans  &trans  &trans  &kp DOLLAR   &kp LEFT_BRACKET      &kp CARET      &trans              &kp PAGE_DOWN           &kp ASTRK    &kp RBKT  &kp LESS_THAN   &kp GREATER_THAN  &trans     &kp ENTER
+                        &trans       &trans                &kp SPACE                                                  &trans       &trans    &trans
             >;
 
             sensor-bindings = <&volumn>;
@@ -125,10 +126,10 @@
         ctrl {
             display-name = "ctrl";
             bindings = <
-&kp F12         &kp F1        &kp F2        &kp F3           &kp F4           &kp F5                             &trans          &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
-&bt BT_CLR_ALL  &to 0         &to 1         &to 2            &trans           &trans           &trans            &trans          &trans  &trans  &trans  &trans  &trans   &soft_off
-                                            &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                                    &trans  &trans  &trans
+&kp F12         &kp F1        &kp F2        &kp F3           &kp F4           &kp F5                             &trans          &kp F6        &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4               &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans   &trans
+&bt BT_CLR_ALL  &to 0         &to 1         &to 2            &trans           &trans           &trans            &trans          &trans        &trans  &trans  &trans  &trans   &soft_off
+                                            &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                                    &out OUT_TOG  &trans  &trans
             >;
 
             sensor-bindings = <&volumn>;
