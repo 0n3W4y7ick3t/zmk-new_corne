@@ -293,3 +293,6 @@ layers:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+combos:
+- p: [28, 41]
+  k: $$mdi:progress-download$$
