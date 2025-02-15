@@ -115,6 +115,8 @@
 &kp SPACE  &trans  &trans  &trans  &kp D   &kp M   &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                            &kp X   &kp A   &kp S                                     &trans  &trans  &trans
             >;
+
+            label = "StS";
         };
 
         number {
