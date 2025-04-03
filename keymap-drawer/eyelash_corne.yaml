@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   colemak:
   - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
@@ -257,7 +258,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -306,7 +307,7 @@ layers:
   - _
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
